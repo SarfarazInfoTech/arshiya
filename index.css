@@ -1,0 +1,61 @@
+body{
+  padding-top: 140px;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  font-size: 16pt;
+}
+.mail {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  background: #d8f1f8;
+  border: 1px soild silver;
+}
+.mail h2 {
+  margin-left: 38px;
+}
+input {
+  font-size: 20pt;
+}
+input:focus,
+textarea:focus {
+  background-color: rgba(40, 131, 21, 0.863);
+}
+input submit {
+  font-size: 12pt;
+}
+.rq {
+  color: #ff0000;
+  font-size: 10pt;
+}
+a{
+  text-decoration: none;
+  align-items: center;
+}
+h3{
+  align-items: center;
+  text-align: center;
+}
+.texts:focus{
+  background-color: rgba(255, 255, 255, 0.863);
+}

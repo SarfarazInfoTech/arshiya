@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CSS PROJECT</title>
+</head>
+
+<body onload='document.form1.text1.focus()'>
+    <div class="mail">
+        <h2>Enter value and check</h2>
+        <form name="form1" action="#">
+            <ul>
+                <li><input class="texts" type='text' name='text1' placeholder="Email" /></li>
+                <li>&nbsp;</li>
+                <li class="submit"><input type="submit" name="submit" value="Submit"
+                        onclick="ValidateEmail(document.form1.text1)" /></li>
+            </ul>
+        </form>
+    </div>
+    <h3><a href="index.html">Click here - Check Phone</a></h3>
+    <script src="index.js"></script>
+</body>
+
+</html>
